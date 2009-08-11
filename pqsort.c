@@ -37,7 +37,9 @@
  * SUCH DAMAGE.
  */
 
+#if !defined(__sun)
 #include <sys/cdefs.h>
+#endif
 #if defined(LIBC_SCCS) && !defined(lint)
 #if 0
 static char sccsid[] = "@(#)qsort.c	8.1 (Berkeley) 6/4/93";
